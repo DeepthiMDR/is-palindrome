@@ -36,8 +36,6 @@ In the test suites all tests have been skipped.
 Once you get a test passing, you can enable the next one by removing the
 `@Ignore("Remove to run test")` annotation.
 
-## Source
-
 ## Submitting Incomplete Solutions
 Incomplete solutions will not be accepted. Please ensure all tests are passing and you
 submit a fully tested solution.
