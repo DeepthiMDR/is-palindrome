@@ -32,10 +32,10 @@ public class PalindromeTest {
 
     @Ignore("Remove to run test")
     @Test
-    public void testSentenceWithSpecialCharactersShouldBeAPalindrome() {
+    public void testSentenceWithSpecialCharactersShouldNotBeAPalindrome() {
         String sentence = "First ladies rule the State and state the rule: ladies first";
 
-        assertTrue(palindrome.check(sentence));
+        assertFalse(palindrome.check(sentence));
     }
 
     @Ignore("Remove to run test")
