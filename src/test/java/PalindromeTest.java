@@ -14,7 +14,7 @@ public class PalindromeTest {
         palindrome = new Palindrome();
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void testEmptyStringShouldBeAPalindrome() {
         String sentence = "";
@@ -22,7 +22,7 @@ public class PalindromeTest {
         assertTrue(palindrome.check(sentence));
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void testSentenceShouldBeAPalindrome() {
         String sentence = "Madam Im Adam";
@@ -30,7 +30,7 @@ public class PalindromeTest {
         assertTrue(palindrome.check(sentence));
     }
 
-    @Ignore("Remove to run test")
+   
     @Test
     public void testSentenceWithSpecialCharactersShouldNotBeAPalindrome() {
         String sentence = "First ladies rule the State and state the rule: ladies first";
@@ -38,7 +38,6 @@ public class PalindromeTest {
         assertFalse(palindrome.check(sentence));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testShouldNotBeAPalindrome() {
         String sentence = "race a car";
